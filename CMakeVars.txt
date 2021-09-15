@@ -384,7 +384,7 @@ CMAKE_MT=CMAKE_MT-NOTFOUND
 CMAKE_MT=CMAKE_MT-NOTFOUND
 CMAKE_NINJA_CMCLDEPS_RC=1
 CMAKE_NO_BUILD_TYPE=1
-CMAKE_NUMBER_OF_MAKEFILES=60
+CMAKE_NUMBER_OF_MAKEFILES=46
 CMAKE_PARENT_LIST_FILE=D:/work/acccn/opencv/CMakeLists.txt
 CMAKE_PATCH_VERSION=2
 CMAKE_PCH_COPY_COMPILE_PDB=ON
@@ -2182,16 +2182,16 @@ TIFF_VERSION_LINES=#define TIFF_VERSION_CLASSIC 42;#define TIFF_VERSION_BIG 43
 TIFF_VERSION_STRING=4.0.10
 TRY_OUT=Change Dir: D:/work/acccn/opencv.builds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_979bf.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) Build Engine version 14.0.25420.1
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_6fdd3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /MP /Od /Ob0 /Oi /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHa /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_979bf.dir\Debug\\" /Fd"cmTC_979bf.dir\Debug\vc140.pdb" /Gd /TP /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /analyze- /errorReport:queue  /bigobj D:\work\acccn\opencv\cmake\checks\directx.cpp
+  cl /c /Zi /W3 /WX- /MP /Od /Ob0 /Oi /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHa /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6fdd3.dir\Debug\\" /Fd"cmTC_6fdd3.dir\Debug\vc140.pdb" /Gd /TP /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /analyze- /errorReport:queue  /bigobj D:\work\acccn\opencv\cmake\checks\directx.cpp
   
   directx.cpp
-cmTC_979bf.dir\Debug\directx.obj : fatal error LNK1112: module machine type 'X86' conflicts with target machine type 'x64' [D:\work\acccn\opencv.builds\CMakeFiles\CMakeTmp\cmTC_979bf.vcxproj]
+cmTC_6fdd3.dir\Debug\directx.obj : fatal error LNK1112: module machine type 'X86' conflicts with target machine type 'x64' [D:\work\acccn\opencv.builds\CMakeFiles\CMakeTmp\cmTC_6fdd3.vcxproj]
 
 
 Threads_FOUND=TRUE

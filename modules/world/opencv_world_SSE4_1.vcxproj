@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{78ACC92A-B015-37A1-84F3-FBE218FFE7E7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>opencv_world_SSE4_1</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_world_SSE4_1.dir\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_world_SSE4_1.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_world_SSE4_1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_world_SSE4_1.dir\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_world_SSE4_1.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_world_SSE4_1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\work\acccn\opencv\3rdparty\quirc\include;D:\work\acccn\opencv\3rdparty\libjasper;D:\work\acccn\opencv.builds\3rdparty\libtiff;D:\work\acccn\opencv\3rdparty\libtiff;D:\work\acccn\opencv\3rdparty\libpng;D:\work\acccn\opencv\3rdparty\libwebp\src;D:\work\acccn\opencv.builds\3rdparty\libjpeg-turbo;D:\work\acccn\opencv\3rdparty\libjpeg-turbo\src;D:\work\acccn\opencv.builds\3rdparty\zlib;D:\work\acccn\opencv\3rdparty\zlib;D:\work\acccn\opencv\modules\core\include;D:\work\acccn\opencv.builds\modules\world;D:\work\acccn\opencv\3rdparty\include\opencl\1.2;D:\work\acccn\opencv\modules\flann\include;D:\work\acccn\opencv\modules\imgproc\include;D:\work\acccn\opencv\modules\ml\include;D:\work\acccn\opencv\modules\photo\include;D:\work\acccn\opencv\modules\dnn\include;D:\work\acccn\opencv\modules\dnn\misc\caffe;D:\work\acccn\opencv\modules\dnn\misc\tensorflow;D:\work\acccn\opencv\modules\dnn\misc\onnx;D:\work\acccn\opencv\modules\features2d\include;D:\work\acccn\opencv\modules\gapi\include;D:\work\acccn\opencv\modules\gapi\src;D:\work\acccn\opencv\modules\imgcodecs\include;D:\work\acccn\opencv\modules\videoio\include;D:\work\acccn\opencv\modules\calib3d\include;D:\work\acccn\opencv\modules\highgui\include;D:\work\acccn\opencv\modules\objdetect\include;D:\work\acccn\opencv\modules\stitching\include;D:\work\acccn\opencv\modules\video\include;D:\work\acccn\opencv\modules\world\include;D:\work\acccn\opencv\3rdparty\protobuf\src;D:\work\acccn\opencv.builds\3rdparty\ade\ade-0.1.1f\sources\ade\include;D:\work\acccn\opencv.builds;D:\work\acccn\opencv\3rdparty\openexr\Half;D:\work\acccn\opencv\3rdparty\openexr\Iex;D:\work\acccn\opencv\3rdparty\openexr\IlmThread;D:\work\acccn\opencv\3rdparty\openexr\Imath;D:\work\acccn\opencv\3rdparty\openexr\IlmImf;D:\work\acccn\opencv.builds\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4244;4267;4018;4355;4800;4251;4996;4146;4305;4127;4100;4512;4125;4389;4510;4610;4702;4456;4457;4065;4310;4661;4506;4125;4267;4127;4244;4512;4702;4456;4510;4610;4800;4701;4703;4505;4458;4503</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CV_CPU_COMPILE_SSE3=1;CV_CPU_COMPILE_SSSE3=1;CV_CPU_COMPILE_SSE4_1=1;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long;CV_OCL4DNN=1;_CRT_SECURE_NO_WARNINGS=1;HAVE_PROTOBUF=1;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CV_CPU_COMPILE_SSE3=1;CV_CPU_COMPILE_SSSE3=1;CV_CPU_COMPILE_SSE4_1=1;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long;CV_OCL4DNN=1;_CRT_SECURE_NO_WARNINGS=1;HAVE_PROTOBUF=1;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\work\acccn\opencv\3rdparty\quirc\include;D:\work\acccn\opencv\3rdparty\libjasper;D:\work\acccn\opencv.builds\3rdparty\libtiff;D:\work\acccn\opencv\3rdparty\libtiff;D:\work\acccn\opencv\3rdparty\libpng;D:\work\acccn\opencv\3rdparty\libwebp\src;D:\work\acccn\opencv.builds\3rdparty\libjpeg-turbo;D:\work\acccn\opencv\3rdparty\libjpeg-turbo\src;D:\work\acccn\opencv.builds\3rdparty\zlib;D:\work\acccn\opencv\3rdparty\zlib;D:\work\acccn\opencv\modules\core\include;D:\work\acccn\opencv.builds\modules\world;D:\work\acccn\opencv\3rdparty\include\opencl\1.2;D:\work\acccn\opencv\modules\flann\include;D:\work\acccn\opencv\modules\imgproc\include;D:\work\acccn\opencv\modules\ml\include;D:\work\acccn\opencv\modules\photo\include;D:\work\acccn\opencv\modules\dnn\include;D:\work\acccn\opencv\modules\dnn\misc\caffe;D:\work\acccn\opencv\modules\dnn\misc\tensorflow;D:\work\acccn\opencv\modules\dnn\misc\onnx;D:\work\acccn\opencv\modules\features2d\include;D:\work\acccn\opencv\modules\gapi\include;D:\work\acccn\opencv\modules\gapi\src;D:\work\acccn\opencv\modules\imgcodecs\include;D:\work\acccn\opencv\modules\videoio\include;D:\work\acccn\opencv\modules\calib3d\include;D:\work\acccn\opencv\modules\highgui\include;D:\work\acccn\opencv\modules\objdetect\include;D:\work\acccn\opencv\modules\stitching\include;D:\work\acccn\opencv\modules\video\include;D:\work\acccn\opencv\modules\world\include;D:\work\acccn\opencv\3rdparty\protobuf\src;D:\work\acccn\opencv.builds\3rdparty\ade\ade-0.1.1f\sources\ade\include;D:\work\acccn\opencv.builds;D:\work\acccn\opencv\3rdparty\openexr\Half;D:\work\acccn\opencv\3rdparty\openexr\Iex;D:\work\acccn\opencv\3rdparty\openexr\IlmThread;D:\work\acccn\opencv\3rdparty\openexr\Imath;D:\work\acccn\opencv\3rdparty\openexr\IlmImf;D:\work\acccn\opencv.builds\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\work\acccn\opencv\3rdparty\quirc\include;D:\work\acccn\opencv\3rdparty\libjasper;D:\work\acccn\opencv.builds\3rdparty\libtiff;D:\work\acccn\opencv\3rdparty\libtiff;D:\work\acccn\opencv\3rdparty\libpng;D:\work\acccn\opencv\3rdparty\libwebp\src;D:\work\acccn\opencv.builds\3rdparty\libjpeg-turbo;D:\work\acccn\opencv\3rdparty\libjpeg-turbo\src;D:\work\acccn\opencv.builds\3rdparty\zlib;D:\work\acccn\opencv\3rdparty\zlib;D:\work\acccn\opencv\modules\core\include;D:\work\acccn\opencv.builds\modules\world;D:\work\acccn\opencv\3rdparty\include\opencl\1.2;D:\work\acccn\opencv\modules\flann\include;D:\work\acccn\opencv\modules\imgproc\include;D:\work\acccn\opencv\modules\ml\include;D:\work\acccn\opencv\modules\photo\include;D:\work\acccn\opencv\modules\dnn\include;D:\work\acccn\opencv\modules\dnn\misc\caffe;D:\work\acccn\opencv\modules\dnn\misc\tensorflow;D:\work\acccn\opencv\modules\dnn\misc\onnx;D:\work\acccn\opencv\modules\features2d\include;D:\work\acccn\opencv\modules\gapi\include;D:\work\acccn\opencv\modules\gapi\src;D:\work\acccn\opencv\modules\imgcodecs\include;D:\work\acccn\opencv\modules\videoio\include;D:\work\acccn\opencv\modules\calib3d\include;D:\work\acccn\opencv\modules\highgui\include;D:\work\acccn\opencv\modules\objdetect\include;D:\work\acccn\opencv\modules\stitching\include;D:\work\acccn\opencv\modules\video\include;D:\work\acccn\opencv\modules\world\include;D:\work\acccn\opencv\3rdparty\protobuf\src;D:\work\acccn\opencv.builds\3rdparty\ade\ade-0.1.1f\sources\ade\include;D:\work\acccn\opencv.builds;D:\work\acccn\opencv\3rdparty\openexr\Half;D:\work\acccn\opencv\3rdparty\openexr\Iex;D:\work\acccn\opencv\3rdparty\openexr\IlmThread;D:\work\acccn\opencv\3rdparty\openexr\Imath;D:\work\acccn\opencv\3rdparty\openexr\IlmImf;D:\work\acccn\opencv.builds\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X64 /IGNORE:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\work\acccn\opencv\3rdparty\quirc\include;D:\work\acccn\opencv\3rdparty\libjasper;D:\work\acccn\opencv.builds\3rdparty\libtiff;D:\work\acccn\opencv\3rdparty\libtiff;D:\work\acccn\opencv\3rdparty\libpng;D:\work\acccn\opencv\3rdparty\libwebp\src;D:\work\acccn\opencv.builds\3rdparty\libjpeg-turbo;D:\work\acccn\opencv\3rdparty\libjpeg-turbo\src;D:\work\acccn\opencv.builds\3rdparty\zlib;D:\work\acccn\opencv\3rdparty\zlib;D:\work\acccn\opencv\modules\core\include;D:\work\acccn\opencv.builds\modules\world;D:\work\acccn\opencv\3rdparty\include\opencl\1.2;D:\work\acccn\opencv\modules\flann\include;D:\work\acccn\opencv\modules\imgproc\include;D:\work\acccn\opencv\modules\ml\include;D:\work\acccn\opencv\modules\photo\include;D:\work\acccn\opencv\modules\dnn\include;D:\work\acccn\opencv\modules\dnn\misc\caffe;D:\work\acccn\opencv\modules\dnn\misc\tensorflow;D:\work\acccn\opencv\modules\dnn\misc\onnx;D:\work\acccn\opencv\modules\features2d\include;D:\work\acccn\opencv\modules\gapi\include;D:\work\acccn\opencv\modules\gapi\src;D:\work\acccn\opencv\modules\imgcodecs\include;D:\work\acccn\opencv\modules\videoio\include;D:\work\acccn\opencv\modules\calib3d\include;D:\work\acccn\opencv\modules\highgui\include;D:\work\acccn\opencv\modules\objdetect\include;D:\work\acccn\opencv\modules\stitching\include;D:\work\acccn\opencv\modules\video\include;D:\work\acccn\opencv\modules\world\include;D:\work\acccn\opencv\3rdparty\protobuf\src;D:\work\acccn\opencv.builds\3rdparty\ade\ade-0.1.1f\sources\ade\include;D:\work\acccn\opencv.builds;D:\work\acccn\opencv\3rdparty\openexr\Half;D:\work\acccn\opencv\3rdparty\openexr\Iex;D:\work\acccn\opencv\3rdparty\openexr\IlmThread;D:\work\acccn\opencv\3rdparty\openexr\Imath;D:\work\acccn\opencv\3rdparty\openexr\IlmImf;D:\work\acccn\opencv.builds\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4244;4267;4018;4355;4800;4251;4996;4146;4305;4127;4100;4512;4125;4389;4510;4610;4702;4456;4457;4065;4310;4661;4506;4125;4267;4127;4244;4512;4702;4456;4510;4610;4800;4701;4703;4505;4458;4503</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;CV_CPU_COMPILE_SSE3=1;CV_CPU_COMPILE_SSSE3=1;CV_CPU_COMPILE_SSE4_1=1;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long;CV_OCL4DNN=1;_CRT_SECURE_NO_WARNINGS=1;HAVE_PROTOBUF=1;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;CV_CPU_COMPILE_SSE3=1;CV_CPU_COMPILE_SSSE3=1;CV_CPU_COMPILE_SSE4_1=1;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long;CV_OCL4DNN=1;_CRT_SECURE_NO_WARNINGS=1;HAVE_PROTOBUF=1;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\work\acccn\opencv\3rdparty\quirc\include;D:\work\acccn\opencv\3rdparty\libjasper;D:\work\acccn\opencv.builds\3rdparty\libtiff;D:\work\acccn\opencv\3rdparty\libtiff;D:\work\acccn\opencv\3rdparty\libpng;D:\work\acccn\opencv\3rdparty\libwebp\src;D:\work\acccn\opencv.builds\3rdparty\libjpeg-turbo;D:\work\acccn\opencv\3rdparty\libjpeg-turbo\src;D:\work\acccn\opencv.builds\3rdparty\zlib;D:\work\acccn\opencv\3rdparty\zlib;D:\work\acccn\opencv\modules\core\include;D:\work\acccn\opencv.builds\modules\world;D:\work\acccn\opencv\3rdparty\include\opencl\1.2;D:\work\acccn\opencv\modules\flann\include;D:\work\acccn\opencv\modules\imgproc\include;D:\work\acccn\opencv\modules\ml\include;D:\work\acccn\opencv\modules\photo\include;D:\work\acccn\opencv\modules\dnn\include;D:\work\acccn\opencv\modules\dnn\misc\caffe;D:\work\acccn\opencv\modules\dnn\misc\tensorflow;D:\work\acccn\opencv\modules\dnn\misc\onnx;D:\work\acccn\opencv\modules\features2d\include;D:\work\acccn\opencv\modules\gapi\include;D:\work\acccn\opencv\modules\gapi\src;D:\work\acccn\opencv\modules\imgcodecs\include;D:\work\acccn\opencv\modules\videoio\include;D:\work\acccn\opencv\modules\calib3d\include;D:\work\acccn\opencv\modules\highgui\include;D:\work\acccn\opencv\modules\objdetect\include;D:\work\acccn\opencv\modules\stitching\include;D:\work\acccn\opencv\modules\video\include;D:\work\acccn\opencv\modules\world\include;D:\work\acccn\opencv\3rdparty\protobuf\src;D:\work\acccn\opencv.builds\3rdparty\ade\ade-0.1.1f\sources\ade\include;D:\work\acccn\opencv.builds;D:\work\acccn\opencv\3rdparty\openexr\Half;D:\work\acccn\opencv\3rdparty\openexr\Iex;D:\work\acccn\opencv\3rdparty\openexr\IlmThread;D:\work\acccn\opencv\3rdparty\openexr\Imath;D:\work\acccn\opencv\3rdparty\openexr\IlmImf;D:\work\acccn\opencv.builds\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\work\acccn\opencv\3rdparty\quirc\include;D:\work\acccn\opencv\3rdparty\libjasper;D:\work\acccn\opencv.builds\3rdparty\libtiff;D:\work\acccn\opencv\3rdparty\libtiff;D:\work\acccn\opencv\3rdparty\libpng;D:\work\acccn\opencv\3rdparty\libwebp\src;D:\work\acccn\opencv.builds\3rdparty\libjpeg-turbo;D:\work\acccn\opencv\3rdparty\libjpeg-turbo\src;D:\work\acccn\opencv.builds\3rdparty\zlib;D:\work\acccn\opencv\3rdparty\zlib;D:\work\acccn\opencv\modules\core\include;D:\work\acccn\opencv.builds\modules\world;D:\work\acccn\opencv\3rdparty\include\opencl\1.2;D:\work\acccn\opencv\modules\flann\include;D:\work\acccn\opencv\modules\imgproc\include;D:\work\acccn\opencv\modules\ml\include;D:\work\acccn\opencv\modules\photo\include;D:\work\acccn\opencv\modules\dnn\include;D:\work\acccn\opencv\modules\dnn\misc\caffe;D:\work\acccn\opencv\modules\dnn\misc\tensorflow;D:\work\acccn\opencv\modules\dnn\misc\onnx;D:\work\acccn\opencv\modules\features2d\include;D:\work\acccn\opencv\modules\gapi\include;D:\work\acccn\opencv\modules\gapi\src;D:\work\acccn\opencv\modules\imgcodecs\include;D:\work\acccn\opencv\modules\videoio\include;D:\work\acccn\opencv\modules\calib3d\include;D:\work\acccn\opencv\modules\highgui\include;D:\work\acccn\opencv\modules\objdetect\include;D:\work\acccn\opencv\modules\stitching\include;D:\work\acccn\opencv\modules\video\include;D:\work\acccn\opencv\modules\world\include;D:\work\acccn\opencv\3rdparty\protobuf\src;D:\work\acccn\opencv.builds\3rdparty\ade\ade-0.1.1f\sources\ade\include;D:\work\acccn\opencv.builds;D:\work\acccn\opencv\3rdparty\openexr\Half;D:\work\acccn\opencv\3rdparty\openexr\Iex;D:\work\acccn\opencv\3rdparty\openexr\IlmThread;D:\work\acccn\opencv\3rdparty\openexr\Imath;D:\work\acccn\opencv\3rdparty\openexr\IlmImf;D:\work\acccn\opencv.builds\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X64 /IGNORE:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\work\acccn\opencv\modules\world\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/work/acccn/opencv/modules/world/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/work/acccn/opencv -BD:/work/acccn/opencv.builds --check-stamp-file D:/work/acccn/opencv.builds/modules/world/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\work\acccn\opencv\cmake\templates\vs_version.rc.in;D:\work\acccn\opencv\modules\calib3d\CMakeLists.txt;D:\work\acccn\opencv\modules\core\CMakeLists.txt;D:\work\acccn\opencv\modules\dnn\CMakeLists.txt;D:\work\acccn\opencv\modules\dnn\cmake\hooks\INIT_MODULE_SOURCES_opencv_dnn.cmake;D:\work\acccn\opencv\modules\features2d\CMakeLists.txt;D:\work\acccn\opencv\modules\flann\CMakeLists.txt;D:\work\acccn\opencv\modules\gapi\CMakeLists.txt;D:\work\acccn\opencv\modules\highgui\CMakeLists.txt;D:\work\acccn\opencv\modules\imgcodecs\CMakeLists.txt;D:\work\acccn\opencv\modules\imgproc\CMakeLists.txt;D:\work\acccn\opencv\modules\ml\CMakeLists.txt;D:\work\acccn\opencv\modules\objdetect\CMakeLists.txt;D:\work\acccn\opencv\modules\photo\CMakeLists.txt;D:\work\acccn\opencv\modules\stitching\CMakeLists.txt;D:\work\acccn\opencv\modules\video\CMakeLists.txt;D:\work\acccn\opencv\modules\videoio\CMakeLists.txt;D:\work\acccn\opencv\modules\videoio\cmake\plugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\work\acccn\opencv.builds\modules\world\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/work/acccn/opencv/modules/world/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/work/acccn/opencv -BD:/work/acccn/opencv.builds --check-stamp-file D:/work/acccn/opencv.builds/modules/world/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\work\acccn\opencv\cmake\templates\vs_version.rc.in;D:\work\acccn\opencv\modules\calib3d\CMakeLists.txt;D:\work\acccn\opencv\modules\core\CMakeLists.txt;D:\work\acccn\opencv\modules\dnn\CMakeLists.txt;D:\work\acccn\opencv\modules\dnn\cmake\hooks\INIT_MODULE_SOURCES_opencv_dnn.cmake;D:\work\acccn\opencv\modules\features2d\CMakeLists.txt;D:\work\acccn\opencv\modules\flann\CMakeLists.txt;D:\work\acccn\opencv\modules\gapi\CMakeLists.txt;D:\work\acccn\opencv\modules\highgui\CMakeLists.txt;D:\work\acccn\opencv\modules\imgcodecs\CMakeLists.txt;D:\work\acccn\opencv\modules\imgproc\CMakeLists.txt;D:\work\acccn\opencv\modules\ml\CMakeLists.txt;D:\work\acccn\opencv\modules\objdetect\CMakeLists.txt;D:\work\acccn\opencv\modules\photo\CMakeLists.txt;D:\work\acccn\opencv\modules\stitching\CMakeLists.txt;D:\work\acccn\opencv\modules\video\CMakeLists.txt;D:\work\acccn\opencv\modules\videoio\CMakeLists.txt;D:\work\acccn\opencv\modules\videoio\cmake\plugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\work\acccn\opencv.builds\modules\world\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\work\acccn\opencv.builds\modules\world\arithm.sse4_1.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="D:\work\acccn\opencv.builds\modules\world\matmul.sse4_1.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="D:\work\acccn\opencv\modules\imgproc\src\imgwarp.sse4_1.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="D:\work\acccn\opencv\modules\imgproc\src\resize.sse4_1.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="D:\work\acccn\opencv.builds\modules\world\accum.sse4_1.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="D:\work\acccn\opencv.builds\modules\world\box_filter.sse4_1.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="D:\work\acccn\opencv.builds\modules\world\filter.sse4_1.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="D:\work\acccn\opencv.builds\modules\world\color_hsv.sse4_1.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="D:\work\acccn\opencv.builds\modules\world\color_rgb.sse4_1.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="D:\work\acccn\opencv.builds\modules\world\color_yuv.sse4_1.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="D:\work\acccn\opencv.builds\modules\world\median_blur.sse4_1.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="D:\work\acccn\opencv.builds\modules\world\morph.sse4_1.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="D:\work\acccn\opencv.builds\modules\world\smooth.sse4_1.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="D:\work\acccn\opencv.builds\modules\world\backends\fluid\gfluidimgproc_func.sse4_1.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions);CV_CPU_DISPATCH_MODE=SSE4_1</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\work\acccn\opencv.builds\ZERO_CHECK.vcxproj">
+      <Project>{0F05B657-9EE4-3A3B-86EF-44F6BCD88FC3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

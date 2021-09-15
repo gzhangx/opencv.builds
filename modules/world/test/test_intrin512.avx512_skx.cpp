@@ -1,0 +1,3 @@
+
+#include "D:/work/acccn/opencv/modules/core/test/test_precomp.hpp"
+#include "D:/work/acccn/opencv/modules/core/test/test_intrin512.simd.hpp"

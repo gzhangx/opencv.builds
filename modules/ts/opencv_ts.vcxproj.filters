@@ -31,9 +31,6 @@
     <ClCompile Include="D:\work\acccn\opencv\modules\ts\src\ts_tags.cpp">
       <Filter>Src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\work\acccn\opencv.builds\modules\ts\opencv_ts_pch.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\work\acccn\opencv\modules\ts\include\opencv2\ts.hpp">

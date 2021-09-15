@@ -1,0 +1,20 @@
+# CMake generation dependency list for this directory.
+D:/work/acccn/opencv/cmake/templates/vs_version.rc.in
+D:/work/acccn/opencv/modules/calib3d/CMakeLists.txt
+D:/work/acccn/opencv/modules/core/CMakeLists.txt
+D:/work/acccn/opencv/modules/dnn/CMakeLists.txt
+D:/work/acccn/opencv/modules/dnn/cmake/hooks/INIT_MODULE_SOURCES_opencv_dnn.cmake
+D:/work/acccn/opencv/modules/features2d/CMakeLists.txt
+D:/work/acccn/opencv/modules/flann/CMakeLists.txt
+D:/work/acccn/opencv/modules/gapi/CMakeLists.txt
+D:/work/acccn/opencv/modules/highgui/CMakeLists.txt
+D:/work/acccn/opencv/modules/imgcodecs/CMakeLists.txt
+D:/work/acccn/opencv/modules/imgproc/CMakeLists.txt
+D:/work/acccn/opencv/modules/ml/CMakeLists.txt
+D:/work/acccn/opencv/modules/objdetect/CMakeLists.txt
+D:/work/acccn/opencv/modules/photo/CMakeLists.txt
+D:/work/acccn/opencv/modules/stitching/CMakeLists.txt
+D:/work/acccn/opencv/modules/video/CMakeLists.txt
+D:/work/acccn/opencv/modules/videoio/CMakeLists.txt
+D:/work/acccn/opencv/modules/videoio/cmake/plugin.cmake
+D:/work/acccn/opencv/modules/world/CMakeLists.txt

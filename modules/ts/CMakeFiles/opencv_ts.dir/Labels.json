@@ -186,15 +186,6 @@
 		},
 		{
 			"file" : "D:/work/acccn/opencv.builds/opencv2/opencv_modules.hpp"
-		},
-		{
-			"file" : "D:/work/acccn/opencv.builds/modules/ts/opencv_ts_pch.cpp",
-			"labels" : 
-			[
-				"Main",
-				"opencv_ts",
-				"Module"
-			]
 		}
 	],
 	"target" : 

@@ -86,7 +86,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\lib\Debug\opencv_highgui430d.lib;..\..\lib\Debug\opencv_videoio430d.lib;..\..\lib\Debug\opencv_imgcodecs430d.lib;..\..\lib\Debug\opencv_imgproc430d.lib;..\..\lib\Debug\opencv_core430d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\Debug\opencv_world430d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -135,7 +135,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\lib\Release\opencv_highgui430.lib;..\..\lib\Release\opencv_videoio430.lib;..\..\lib\Release\opencv_imgcodecs430.lib;..\..\lib\Release\opencv_imgproc430.lib;..\..\lib\Release\opencv_core430.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\lib\Release\opencv_world430.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -188,25 +188,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\core\opencv_core.vcxproj">
-      <Project>{17EE1C0C-86E7-3C08-829B-81414BAB2AA4}</Project>
-      <Name>opencv_core</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\highgui\opencv_highgui.vcxproj">
-      <Project>{1A5B3372-19BA-336A-83DF-0F41B9D1DE25}</Project>
-      <Name>opencv_highgui</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\imgcodecs\opencv_imgcodecs.vcxproj">
-      <Project>{F8EBD9A3-49D7-3312-A895-60A901FAA5F6}</Project>
-      <Name>opencv_imgcodecs</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\imgproc\opencv_imgproc.vcxproj">
-      <Project>{80538364-22AA-3A4F-9369-87134DCD1436}</Project>
-      <Name>opencv_imgproc</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\videoio\opencv_videoio.vcxproj">
-      <Project>{D64FEE0B-928C-3416-9C86-A6A6F079ED36}</Project>
-      <Name>opencv_videoio</Name>
+    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\world\opencv_world.vcxproj">
+      <Project>{3C83E6F0-462C-3B90-A374-72F695D08AB8}</Project>
+      <Name>opencv_world</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

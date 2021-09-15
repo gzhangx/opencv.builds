@@ -105,8 +105,8 @@ set(OpenCV_SHARED ON)
 # Enables mangled install paths, that help with side by side installs
 set(OpenCV_USE_MANGLED_PATHS FALSE)
 
-set(OpenCV_LIB_COMPONENTS opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio)
-set(__OpenCV_INCLUDE_DIRS "D:/work/acccn/opencv.builds" "D:/work/acccn/opencv/include" "D:/work/acccn/opencv/modules/core/include" "D:/work/acccn/opencv/modules/flann/include" "D:/work/acccn/opencv/modules/imgproc/include" "D:/work/acccn/opencv/modules/ml/include" "D:/work/acccn/opencv/modules/photo/include" "D:/work/acccn/opencv/modules/dnn/include" "D:/work/acccn/opencv/modules/features2d/include" "D:/work/acccn/opencv/modules/gapi/include" "D:/work/acccn/opencv/modules/imgcodecs/include" "D:/work/acccn/opencv/modules/videoio/include" "D:/work/acccn/opencv/modules/calib3d/include" "D:/work/acccn/opencv/modules/highgui/include" "D:/work/acccn/opencv/modules/objdetect/include" "D:/work/acccn/opencv/modules/stitching/include" "D:/work/acccn/opencv/modules/ts/include" "D:/work/acccn/opencv/modules/video/include")
+set(OpenCV_LIB_COMPONENTS opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio;opencv_world)
+set(__OpenCV_INCLUDE_DIRS "D:/work/acccn/opencv.builds" "D:/work/acccn/opencv/include" "D:/work/acccn/opencv/modules/core/include" "D:/work/acccn/opencv/modules/flann/include" "D:/work/acccn/opencv/modules/imgproc/include" "D:/work/acccn/opencv/modules/ml/include" "D:/work/acccn/opencv/modules/photo/include" "D:/work/acccn/opencv/modules/dnn/include" "D:/work/acccn/opencv/modules/features2d/include" "D:/work/acccn/opencv/modules/gapi/include" "D:/work/acccn/opencv/modules/imgcodecs/include" "D:/work/acccn/opencv/modules/videoio/include" "D:/work/acccn/opencv/modules/calib3d/include" "D:/work/acccn/opencv/modules/highgui/include" "D:/work/acccn/opencv/modules/objdetect/include" "D:/work/acccn/opencv/modules/stitching/include" "D:/work/acccn/opencv/modules/video/include" "D:/work/acccn/opencv/modules/world/include" "D:/work/acccn/opencv/modules/ts/include")
 
 set(OpenCV_INCLUDE_DIRS "")
 foreach(d ${__OpenCV_INCLUDE_DIRS})
@@ -195,7 +195,7 @@ if(NOT OpenCV_FIND_COMPONENTS)
   endif()
 endif()
 
-set(OpenCV_WORLD_COMPONENTS )
+set(OpenCV_WORLD_COMPONENTS opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio)
 
 # expand short module names and see if requested components exist
 foreach(__cvcomponent ${OpenCV_FIND_COMPONENTS})

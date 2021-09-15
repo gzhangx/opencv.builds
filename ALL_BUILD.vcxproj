@@ -135,103 +135,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{E9EA9B01-3A35-322C-9170-178381E7B01D}</Project>
       <Name>opencv_annotation</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\calib3d\opencv_calib3d.vcxproj">
-      <Project>{1F6D6EC6-1B3B-30F6-8867-61AD2EFE08E0}</Project>
-      <Name>opencv_calib3d</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\core\opencv_core.vcxproj">
-      <Project>{17EE1C0C-86E7-3C08-829B-81414BAB2AA4}</Project>
-      <Name>opencv_core</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\core\opencv_core_AVX.vcxproj">
-      <Project>{A663B9A2-37BC-3838-AD0B-2DD801C0E14F}</Project>
-      <Name>opencv_core_AVX</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\core\opencv_core_SSE4_1.vcxproj">
-      <Project>{334C2F21-F671-3294-A67D-72C2E9D7F8E5}</Project>
-      <Name>opencv_core_SSE4_1</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\core\opencv_core_SSE4_2.vcxproj">
-      <Project>{563BEC20-39D0-33A6-A8E9-8E76D545FAD7}</Project>
-      <Name>opencv_core_SSE4_2</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\dnn\opencv_dnn.vcxproj">
-      <Project>{DBA20291-370A-3FA1-9DDA-8B8E9AE5C656}</Project>
-      <Name>opencv_dnn</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\dnn\opencv_dnn_AVX.vcxproj">
-      <Project>{F193C897-A3F1-3B0D-9361-656F861A7A13}</Project>
-      <Name>opencv_dnn_AVX</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\features2d\opencv_features2d.vcxproj">
-      <Project>{079B182C-B88F-31D2-A8FB-55B96E08BF52}</Project>
-      <Name>opencv_features2d</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\flann\opencv_flann.vcxproj">
-      <Project>{030419C5-4D6C-351F-82B0-A95AB5243281}</Project>
-      <Name>opencv_flann</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\gapi\opencv_gapi.vcxproj">
-      <Project>{B759CB46-C930-378C-83A3-9739E7C317DE}</Project>
-      <Name>opencv_gapi</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\gapi\opencv_gapi_SSE4_1.vcxproj">
-      <Project>{05BABD2D-AD5B-3800-B657-14D25180A0B8}</Project>
-      <Name>opencv_gapi_SSE4_1</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\highgui\opencv_highgui.vcxproj">
-      <Project>{1A5B3372-19BA-336A-83DF-0F41B9D1DE25}</Project>
-      <Name>opencv_highgui</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\imgcodecs\opencv_imgcodecs.vcxproj">
-      <Project>{F8EBD9A3-49D7-3312-A895-60A901FAA5F6}</Project>
-      <Name>opencv_imgcodecs</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\imgproc\opencv_imgproc.vcxproj">
-      <Project>{80538364-22AA-3A4F-9369-87134DCD1436}</Project>
-      <Name>opencv_imgproc</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\imgproc\opencv_imgproc_AVX.vcxproj">
-      <Project>{912BA6AF-2706-3B06-B5E3-30CF6F8B0F97}</Project>
-      <Name>opencv_imgproc_AVX</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\imgproc\opencv_imgproc_SSE4_1.vcxproj">
-      <Project>{26CD1AA8-00B6-306C-A72F-CC6FDB47FE6B}</Project>
-      <Name>opencv_imgproc_SSE4_1</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
     <ProjectReference Include="D:\work\acccn\opencv.builds\apps\interactive-calibration\opencv_interactive-calibration.vcxproj">
       <Project>{C6F19C07-DA3D-3A03-8F8C-238E90D9EDA1}</Project>
       <Name>opencv_interactive-calibration</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\ml\opencv_ml.vcxproj">
-      <Project>{14ED52ED-CF58-3CC4-89AC-CF2DFAC7DA4D}</Project>
-      <Name>opencv_ml</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\objdetect\opencv_objdetect.vcxproj">
-      <Project>{D64FDDC4-8FAD-3432-A0F0-086CCEEB5D0F}</Project>
-      <Name>opencv_objdetect</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\photo\opencv_photo.vcxproj">
-      <Project>{54B95002-E256-3C1A-97AC-CE2D566471C7}</Project>
-      <Name>opencv_photo</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\stitching\opencv_stitching.vcxproj">
-      <Project>{67813A61-8B82-32D4-B0AC-3E0105DB6501}</Project>
-      <Name>opencv_stitching</Name>
     </ProjectReference>
     <ProjectReference Include="D:\work\acccn\opencv.builds\modules\ts\opencv_ts.vcxproj">
       <Project>{38CE78AB-7E4E-374F-9F17-24B55503C6DD}</Project>
@@ -245,14 +151,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{1FB109D6-B104-3B22-BAF9-0DB632BF44EF}</Project>
       <Name>opencv_version_win32</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\video\opencv_video.vcxproj">
-      <Project>{48B032C3-7CF9-38AB-B05C-562C0B1D954E}</Project>
-      <Name>opencv_video</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\videoio\opencv_videoio.vcxproj">
-      <Project>{D64FEE0B-928C-3416-9C86-A6A6F079ED36}</Project>
-      <Name>opencv_videoio</Name>
-    </ProjectReference>
     <ProjectReference Include="D:\work\acccn\opencv.builds\modules\.firstpass\videoio\opencv_videoio_plugins.vcxproj">
       <Project>{DDEE0214-20F5-3BB6-8893-9BFD27819B00}</Project>
       <Name>opencv_videoio_plugins</Name>
@@ -262,6 +160,28 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="D:\work\acccn\opencv.builds\apps\visualisation\opencv_visualisation.vcxproj">
       <Project>{172EAD5E-8C2C-318C-ABCE-E0DDB76E83B2}</Project>
       <Name>opencv_visualisation</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\world\opencv_world.vcxproj">
+      <Project>{3C83E6F0-462C-3B90-A374-72F695D08AB8}</Project>
+      <Name>opencv_world</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\world\opencv_world_AVX.vcxproj">
+      <Project>{B232A0F1-218D-3410-B62B-3E18FBD63030}</Project>
+      <Name>opencv_world_AVX</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\world\opencv_world_SSE4_1.vcxproj">
+      <Project>{78ACC92A-B015-37A1-84F3-FBE218FFE7E7}</Project>
+      <Name>opencv_world_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\work\acccn\opencv.builds\modules\world\opencv_world_SSE4_2.vcxproj">
+      <Project>{C52AFFB9-C3EC-3C52-84F6-92FA1411BD36}</Project>
+      <Name>opencv_world_SSE4_2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
     <ProjectReference Include="D:\work\acccn\opencv.builds\3rdparty\quirc\quirc.vcxproj">
       <Project>{D7581BAA-B084-3968-9E94-B23C9E00E248}</Project>

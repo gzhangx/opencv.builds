@@ -85,7 +85,3 @@ D:/work/acccn/opencv/modules/ts/src/ts_tags.hpp
  Module
 D:/work/acccn/opencv.builds/cvconfig.h
 D:/work/acccn/opencv.builds/opencv2/opencv_modules.hpp
-D:/work/acccn/opencv.builds/modules/ts/opencv_ts_pch.cpp
- Main
- opencv_ts
- Module

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\work\acccn\opencv.builds\modules\world\mathfuncs_core.avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\acccn\opencv\modules\imgproc\src\corner.avx.cpp">
+      <Filter>opencv_imgproc\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\acccn\opencv.builds\modules\world\accum.avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\acccn\opencv.builds\modules\world\layers\layers_common.avx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\work\acccn\opencv\modules\world\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6503EC47-8CB0-393C-9613-1E3DB81A3681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc">
+      <UniqueIdentifier>{3D599162-79BB-3728-BAB6-F7D1474BE92A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Src">
+      <UniqueIdentifier>{017090F2-0C9C-3F8C-8996-6C3A3DA48A43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

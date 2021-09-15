@@ -90,16 +90,16 @@ BUILD_DOCS:BOOL=OFF
 BUILD_EXAMPLES:BOOL=OFF
 
 //Build IPP IW from source
-BUILD_IPP_IW:BOOL=ON
+BUILD_IPP_IW:BOOL=OFF
 
 //Build Intel ITT from source
-BUILD_ITT:BOOL=ON
+BUILD_ITT:BOOL=OFF
 
 //Build libjasper from source
 BUILD_JASPER:BOOL=ON
 
 //Enable Java support
-BUILD_JAVA:BOOL=ON
+BUILD_JAVA:BOOL=OFF
 
 //Build libjpeg from source
 BUILD_JPEG:BOOL=ON
@@ -114,7 +114,7 @@ BUILD_OPENEXR:BOOL=ON
 BUILD_PACKAGE:BOOL=ON
 
 //Build performance tests
-BUILD_PERF_TESTS:BOOL=ON
+BUILD_PERF_TESTS:BOOL=OFF
 
 //Build libpng from source
 BUILD_PNG:BOOL=ON
@@ -129,7 +129,7 @@ BUILD_SHARED_LIBS:BOOL=ON
 BUILD_TBB:BOOL=OFF
 
 //Build accuracy & regression tests
-BUILD_TESTS:BOOL=ON
+BUILD_TESTS:BOOL=OFF
 
 //Build libtiff from source
 BUILD_TIFF:BOOL=ON
@@ -185,7 +185,7 @@ BUILD_opencv_imgproc:BOOL=ON
 
 //Include opencv_java_bindings_generator module into the OpenCV
 // build
-BUILD_opencv_java_bindings_generator:BOOL=ON
+BUILD_opencv_java_bindings_generator:BOOL=OFF
 
 //Build JavaScript bindings by Emscripten
 BUILD_opencv_js:BOOL=OFF
@@ -200,14 +200,14 @@ BUILD_opencv_objdetect:BOOL=ON
 BUILD_opencv_photo:BOOL=ON
 
 //Include opencv_python3 module into the OpenCV build
-BUILD_opencv_python3:BOOL=ON
+BUILD_opencv_python3:BOOL=OFF
 
 //Include opencv_python_bindings_generator module into the OpenCV
 // build
-BUILD_opencv_python_bindings_generator:BOOL=ON
+BUILD_opencv_python_bindings_generator:BOOL=OFF
 
 //Include opencv_python_tests module into the OpenCV build
-BUILD_opencv_python_tests:BOOL=ON
+BUILD_opencv_python_tests:BOOL=OFF
 
 //Include opencv_stitching module into the OpenCV build
 BUILD_opencv_stitching:BOOL=ON
@@ -371,10 +371,10 @@ CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 
 //If set, runtime paths are not added when installing shared libraries,
 // but are added when building.
-CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
+CMAKE_SKIP_INSTALL_RPATH:BOOL=OFF
 
 //If set, runtime paths are not added when using shared libraries.
-CMAKE_SKIP_RPATH:BOOL=NO
+CMAKE_SKIP_RPATH:BOOL=OFF
 
 //Flags used by the linker during the creation of static libraries
 // during all build types.
@@ -400,7 +400,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // .SILENT directive, and all commands will be echoed to the console
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
-CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+CMAKE_VERBOSE_MAKEFILE:BOOL=OFF
 
 //Enable to build 7-Zip packages
 CPACK_BINARY_7Z:BOOL=OFF
@@ -770,7 +770,7 @@ PYTHON3_NUMPY_INCLUDE_DIRS:PATH=C:/Users/gzhan/AppData/Local/Packages/PythonSoft
 PYTHON3_PACKAGES_PATH:PATH=C:/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0/Lib/site-packages
 
 //Use win32 IO system (Microsoft Windows only)
-USE_WIN32_FILEIO:BOOL=TRUE
+USE_WIN32_FILEIO:BOOL=ON
 
 //Allow building videoio plugin support
 VIDEOIO_ENABLE_PLUGINS:BOOL=ON
@@ -850,10 +850,10 @@ WITH_IMGCODEC_SUNRASTER:BOOL=ON
 WITH_INF_ENGINE:BOOL=OFF
 
 //Include Intel IPP support
-WITH_IPP:BOOL=ON
+WITH_IPP:BOOL=OFF
 
 //Include Intel ITT support
-WITH_ITT:BOOL=ON
+WITH_ITT:BOOL=OFF
 
 //Include JPEG2K support (Jasper)
 WITH_JASPER:BOOL=ON
@@ -1066,7 +1066,7 @@ opencv_calib3d_BINARY_DIR:STATIC=D:/work/acccn/opencv.builds/modules/calib3d
 opencv_calib3d_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-opencv_calib3d_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_flann;general;opencv_imgproc;general;opencv_features2d;general;ippiw;general;ippicv;
+opencv_calib3d_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_flann;general;opencv_imgproc;general;opencv_features2d;
 
 //Value Computed by CMake
 opencv_calib3d_SOURCE_DIR:STATIC=D:/work/acccn/opencv/modules/calib3d
@@ -1078,7 +1078,7 @@ opencv_core_BINARY_DIR:STATIC=D:/work/acccn/opencv.builds/modules/core
 opencv_core_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-opencv_core_LIB_DEPENDS:STATIC=general;ippiw;general;ippicv;general;zlib;general;ittnotify;
+opencv_core_LIB_DEPENDS:STATIC=general;zlib;
 
 //Value Computed by CMake
 opencv_core_SOURCE_DIR:STATIC=D:/work/acccn/opencv/modules/core
@@ -1090,7 +1090,7 @@ opencv_dnn_BINARY_DIR:STATIC=D:/work/acccn/opencv.builds/modules/dnn
 opencv_dnn_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-opencv_dnn_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_imgproc;general;ippiw;general;ippicv;general;libprotobuf;
+opencv_dnn_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_imgproc;general;libprotobuf;
 
 //Add performance tests of Caffe framework
 opencv_dnn_PERF_CAFFE:BOOL=OFF
@@ -1108,7 +1108,7 @@ opencv_features2d_BINARY_DIR:STATIC=D:/work/acccn/opencv.builds/modules/features
 opencv_features2d_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-opencv_features2d_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_flann;general;opencv_imgproc;general;ippiw;general;ippicv;
+opencv_features2d_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_flann;general;opencv_imgproc;
 
 //Value Computed by CMake
 opencv_features2d_SOURCE_DIR:STATIC=D:/work/acccn/opencv/modules/features2d
@@ -1120,7 +1120,7 @@ opencv_flann_BINARY_DIR:STATIC=D:/work/acccn/opencv.builds/modules/flann
 opencv_flann_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-opencv_flann_LIB_DEPENDS:STATIC=general;opencv_core;general;ippiw;general;ippicv;
+opencv_flann_LIB_DEPENDS:STATIC=general;opencv_core;
 
 //Value Computed by CMake
 opencv_flann_SOURCE_DIR:STATIC=D:/work/acccn/opencv/modules/flann
@@ -1132,7 +1132,7 @@ opencv_gapi_BINARY_DIR:STATIC=D:/work/acccn/opencv.builds/modules/gapi
 opencv_gapi_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-opencv_gapi_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_imgproc;general;ippiw;general;ippicv;general;ade;
+opencv_gapi_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_imgproc;general;ade;
 
 //Value Computed by CMake
 opencv_gapi_SOURCE_DIR:STATIC=D:/work/acccn/opencv/modules/gapi
@@ -1144,7 +1144,7 @@ opencv_highgui_BINARY_DIR:STATIC=D:/work/acccn/opencv.builds/modules/highgui
 opencv_highgui_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-opencv_highgui_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_imgproc;general;opencv_imgcodecs;general;opencv_videoio;general;ippiw;general;ippicv;general;comctl32;general;gdi32;general;ole32;general;setupapi;general;ws2_32;
+opencv_highgui_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_imgproc;general;opencv_imgcodecs;general;opencv_videoio;general;comctl32;general;gdi32;general;ole32;general;setupapi;general;ws2_32;
 
 //Value Computed by CMake
 opencv_highgui_SOURCE_DIR:STATIC=D:/work/acccn/opencv/modules/highgui
@@ -1156,7 +1156,7 @@ opencv_imgcodecs_BINARY_DIR:STATIC=D:/work/acccn/opencv.builds/modules/imgcodecs
 opencv_imgcodecs_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-opencv_imgcodecs_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_imgproc;general;ippiw;general;ippicv;general;zlib;general;libjpeg-turbo;general;libwebp;general;libpng;general;libtiff;general;libjasper;general;IlmImf;
+opencv_imgcodecs_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_imgproc;general;zlib;general;libjpeg-turbo;general;libwebp;general;libpng;general;libtiff;general;libjasper;general;IlmImf;
 
 //Value Computed by CMake
 opencv_imgcodecs_SOURCE_DIR:STATIC=D:/work/acccn/opencv/modules/imgcodecs
@@ -1168,7 +1168,7 @@ opencv_imgproc_BINARY_DIR:STATIC=D:/work/acccn/opencv.builds/modules/imgproc
 opencv_imgproc_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-opencv_imgproc_LIB_DEPENDS:STATIC=general;opencv_core;general;ippiw;general;ippicv;
+opencv_imgproc_LIB_DEPENDS:STATIC=general;opencv_core;
 
 //Value Computed by CMake
 opencv_imgproc_SOURCE_DIR:STATIC=D:/work/acccn/opencv/modules/imgproc
@@ -1198,7 +1198,7 @@ opencv_ml_BINARY_DIR:STATIC=D:/work/acccn/opencv.builds/modules/ml
 opencv_ml_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-opencv_ml_LIB_DEPENDS:STATIC=general;opencv_core;general;ippiw;general;ippicv;
+opencv_ml_LIB_DEPENDS:STATIC=general;opencv_core;
 
 //Value Computed by CMake
 opencv_ml_SOURCE_DIR:STATIC=D:/work/acccn/opencv/modules/ml
@@ -1210,7 +1210,7 @@ opencv_objdetect_BINARY_DIR:STATIC=D:/work/acccn/opencv.builds/modules/objdetect
 opencv_objdetect_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-opencv_objdetect_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_flann;general;opencv_imgproc;general;opencv_features2d;general;opencv_calib3d;general;ippiw;general;ippicv;general;quirc;
+opencv_objdetect_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_flann;general;opencv_imgproc;general;opencv_features2d;general;opencv_calib3d;general;quirc;
 
 //Value Computed by CMake
 opencv_objdetect_SOURCE_DIR:STATIC=D:/work/acccn/opencv/modules/objdetect
@@ -1222,7 +1222,7 @@ opencv_photo_BINARY_DIR:STATIC=D:/work/acccn/opencv.builds/modules/photo
 opencv_photo_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-opencv_photo_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_imgproc;general;ippiw;general;ippicv;
+opencv_photo_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_imgproc;
 
 //Value Computed by CMake
 opencv_photo_SOURCE_DIR:STATIC=D:/work/acccn/opencv/modules/photo
@@ -1264,7 +1264,7 @@ opencv_stitching_BINARY_DIR:STATIC=D:/work/acccn/opencv.builds/modules/stitching
 opencv_stitching_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-opencv_stitching_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_flann;general;opencv_imgproc;general;opencv_features2d;general;opencv_calib3d;general;ippiw;general;ippicv;
+opencv_stitching_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_flann;general;opencv_imgproc;general;opencv_features2d;general;opencv_calib3d;
 
 //Value Computed by CMake
 opencv_stitching_SOURCE_DIR:STATIC=D:/work/acccn/opencv/modules/stitching
@@ -1276,7 +1276,7 @@ opencv_ts_BINARY_DIR:STATIC=D:/work/acccn/opencv.builds/modules/ts
 opencv_ts_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-opencv_ts_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_imgproc;general;opencv_imgcodecs;general;opencv_videoio;general;opencv_highgui;general;ippiw;general;ippicv;
+opencv_ts_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_imgproc;general;opencv_imgcodecs;general;opencv_videoio;general;opencv_highgui;
 
 //Value Computed by CMake
 opencv_ts_SOURCE_DIR:STATIC=D:/work/acccn/opencv/modules/ts
@@ -1306,7 +1306,7 @@ opencv_video_BINARY_DIR:STATIC=D:/work/acccn/opencv.builds/modules/video
 opencv_video_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-opencv_video_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_flann;general;opencv_imgproc;general;opencv_features2d;general;opencv_calib3d;general;ippiw;general;ippicv;
+opencv_video_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_flann;general;opencv_imgproc;general;opencv_features2d;general;opencv_calib3d;
 
 //Value Computed by CMake
 opencv_video_SOURCE_DIR:STATIC=D:/work/acccn/opencv/modules/video
@@ -1318,7 +1318,7 @@ opencv_videoio_BINARY_DIR:STATIC=D:/work/acccn/opencv.builds/modules/videoio
 opencv_videoio_IS_TOP_LEVEL:STATIC=OFF
 
 //Dependencies for the target
-opencv_videoio_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_imgproc;general;opencv_imgcodecs;general;ippiw;general;ippicv;
+opencv_videoio_LIB_DEPENDS:STATIC=general;opencv_core;general;opencv_imgproc;general;opencv_imgcodecs;
 
 //Value Computed by CMake
 opencv_videoio_SOURCE_DIR:STATIC=D:/work/acccn/opencv/modules/videoio
@@ -1503,7 +1503,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=66
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=60
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
@@ -1575,18 +1575,18 @@ CPU_AVX512_KNL_USAGE_COUNT:INTERNAL=0
 CPU_AVX512_KNM_USAGE_COUNT:INTERNAL=0
 CPU_AVX512_SKX_USAGE_COUNT:INTERNAL=0
 CPU_AVX_512F_USAGE_COUNT:INTERNAL=0
-CPU_AVX_USAGE_COUNT:INTERNAL=5
+CPU_AVX_USAGE_COUNT:INTERNAL=4
 //STRINGS property for variable: CPU_BASELINE
 CPU_BASELINE-STRINGS:INTERNAL=;SSE;SSE2;SSE3;SSSE3;SSE4_1;POPCNT;SSE4_2;FP16;FMA3;AVX;AVX2;AVX_512F;AVX512_COMMON;AVX512_KNL;AVX512_KNM;AVX512_SKX;AVX512_CNL;AVX512_CLX;AVX512_ICL
 //STRINGS property for variable: CPU_DISPATCH
 CPU_DISPATCH-STRINGS:INTERNAL=;SSE;SSE2;SSE3;SSSE3;SSE4_1;POPCNT;SSE4_2;FP16;FMA3;AVX;AVX2;AVX_512F;AVX512_COMMON;AVX512_KNL;AVX512_KNM;AVX512_SKX;AVX512_CNL;AVX512_CLX;AVX512_ICL
 CPU_FMA3_USAGE_COUNT:INTERNAL=0
-CPU_FP16_USAGE_COUNT:INTERNAL=1
+CPU_FP16_USAGE_COUNT:INTERNAL=0
 CPU_POPCNT_USAGE_COUNT:INTERNAL=0
 CPU_SSE2_USAGE_COUNT:INTERNAL=0
 CPU_SSE3_USAGE_COUNT:INTERNAL=0
-CPU_SSE4_1_USAGE_COUNT:INTERNAL=17
-CPU_SSE4_2_USAGE_COUNT:INTERNAL=2
+CPU_SSE4_1_USAGE_COUNT:INTERNAL=14
+CPU_SSE4_2_USAGE_COUNT:INTERNAL=1
 CPU_SSE_USAGE_COUNT:INTERNAL=0
 CPU_SSSE3_USAGE_COUNT:INTERNAL=0
 //Test C_HAS_inline
@@ -1737,9 +1737,9 @@ HAVE_opencv_imgcodecs:INTERNAL=ON
 HAVE_opencv_imgproc:INTERNAL=ON
 //Module opencv_java can not be built in current configuration
 HAVE_opencv_java:INTERNAL=OFF
-//Module opencv_java_bindings_generator will be built in current
+//Module opencv_java_bindings_generator will not be built in current
 // configuration
-HAVE_opencv_java_bindings_generator:INTERNAL=ON
+HAVE_opencv_java_bindings_generator:INTERNAL=OFF
 //Module opencv_js can not be built in current configuration
 HAVE_opencv_js:INTERNAL=OFF
 //Module opencv_ml will be built in current configuration
@@ -1750,13 +1750,13 @@ HAVE_opencv_objdetect:INTERNAL=ON
 HAVE_opencv_photo:INTERNAL=ON
 //Module opencv_python2 can not be built in current configuration
 HAVE_opencv_python2:INTERNAL=OFF
-//Module opencv_python3 will be built in current configuration
-HAVE_opencv_python3:INTERNAL=ON
-//Module opencv_python_bindings_generator will be built in current
-// configuration
-HAVE_opencv_python_bindings_generator:INTERNAL=ON
-//Module opencv_python_tests will be built in current configuration
-HAVE_opencv_python_tests:INTERNAL=ON
+//Module opencv_python3 will not be built in current configuration
+HAVE_opencv_python3:INTERNAL=OFF
+//Module opencv_python_bindings_generator will not be built in
+// current configuration
+HAVE_opencv_python_bindings_generator:INTERNAL=OFF
+//Module opencv_python_tests will not be built in current configuration
+HAVE_opencv_python_tests:INTERNAL=OFF
 //Module opencv_stitching will be built in current configuration
 HAVE_opencv_stitching:INTERNAL=ON
 //Module opencv_ts will be built in current configuration
@@ -1792,12 +1792,11 @@ OFF64_T:INTERNAL=
 OPENCL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENCL_LIBRARY
 OPENCL_LIBRARY-ADVANCED:INTERNAL=1
-OPENCV_DEPENDANT_TARGETS_LIST:INTERNAL=OPENCV_DEPENDANT_TARGETS_opencv_core;OPENCV_DEPENDANT_TARGETS_opencv_dnn;OPENCV_DEPENDANT_TARGETS_opencv_gapi;OPENCV_DEPENDANT_TARGETS_opencv_imgproc;OPENCV_DEPENDANT_TARGETS_opencv_test_core
+OPENCV_DEPENDANT_TARGETS_LIST:INTERNAL=OPENCV_DEPENDANT_TARGETS_opencv_core;OPENCV_DEPENDANT_TARGETS_opencv_dnn;OPENCV_DEPENDANT_TARGETS_opencv_gapi;OPENCV_DEPENDANT_TARGETS_opencv_imgproc
 OPENCV_DEPENDANT_TARGETS_opencv_core:INTERNAL=;opencv_core_SSE4_1;opencv_core_SSE4_2;opencv_core_AVX
 OPENCV_DEPENDANT_TARGETS_opencv_dnn:INTERNAL=;opencv_dnn_AVX
 OPENCV_DEPENDANT_TARGETS_opencv_gapi:INTERNAL=;opencv_gapi_SSE4_1
 OPENCV_DEPENDANT_TARGETS_opencv_imgproc:INTERNAL=;opencv_imgproc_SSE4_1;opencv_imgproc_AVX
-OPENCV_DEPENDANT_TARGETS_opencv_test_core:INTERNAL=;opencv_test_core_SSE4_1;opencv_test_core_SSE4_2;opencv_test_core_FP16;opencv_test_core_AVX
 OPENCV_DEPHELPER:INTERNAL=D:/work/acccn/opencv.builds/CMakeFiles/dephelper
 //ADVANCED property for variable: OPENCV_DOWNLOAD_PARAMS
 OPENCV_DOWNLOAD_PARAMS-ADVANCED:INTERNAL=1
@@ -1806,13 +1805,13 @@ OPENCV_DOWNLOAD_TRIES_LIST-ADVANCED:INTERNAL=1
 OPENCV_JAVA_BINDINGS_DIR:INTERNAL=D:/work/acccn/opencv.builds/modules/java_bindings_generator
 OPENCV_JAVA_SIGNATURES_FILE:INTERNAL=D:/work/acccn/opencv.builds/modules/java_bindings_generator/opencv_java_signatures.json
 //List of OpenCV modules included into the build
-OPENCV_MODULES_BUILD:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_java_bindings_generator;opencv_ml;opencv_photo;opencv_python_tests;opencv_dnn;opencv_features2d;opencv_gapi;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_highgui;opencv_objdetect;opencv_stitching;opencv_ts;opencv_video;opencv_python_bindings_generator;opencv_python3
+OPENCV_MODULES_BUILD:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_gapi;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_highgui;opencv_objdetect;opencv_stitching;opencv_ts;opencv_video
 //List of OpenCV modules implicitly disabled due to dependencies
 OPENCV_MODULES_DISABLED_AUTO:INTERNAL=
 //List of OpenCV modules which can not be build in current configuration
 OPENCV_MODULES_DISABLED_FORCE:INTERNAL=opencv_java;opencv_js;opencv_python2
 //List of OpenCV modules explicitly disabled by user
-OPENCV_MODULES_DISABLED_USER:INTERNAL=opencv_world
+OPENCV_MODULES_DISABLED_USER:INTERNAL=opencv_java_bindings_generator;opencv_python_bindings_generator;opencv_python_tests;opencv_python3;opencv_world
 //List of extra modules
 OPENCV_MODULES_EXTRA:INTERNAL=java_bindings_generator;python2;python3;python_bindings_generator;python_tests
 //List of main modules
@@ -2105,10 +2104,6 @@ OPENCV_MODULE_opencv_java_bindings_generator_BINARY_DIR:INTERNAL=D:/work/acccn/o
 //The category of the module
 OPENCV_MODULE_opencv_java_bindings_generator_CLASS:INTERNAL=INTERNAL
 //Flattened dependencies of opencv_java_bindings_generator module
-OPENCV_MODULE_opencv_java_bindings_generator_DEPS:INTERNAL=
-//Extra dependencies of opencv_java_bindings_generator module
-OPENCV_MODULE_opencv_java_bindings_generator_DEPS_EXT:INTERNAL=
-//Flattened dependencies of opencv_java_bindings_generator module
 // (for linker)
 OPENCV_MODULE_opencv_java_bindings_generator_DEPS_TO_LINK:INTERNAL=
 //Brief description of opencv_java_bindings_generator module
@@ -2247,10 +2242,6 @@ OPENCV_MODULE_opencv_python2_WRAPPERS:INTERNAL=
 OPENCV_MODULE_opencv_python3_BINARY_DIR:INTERNAL=D:/work/acccn/opencv.builds/modules/python3
 //The category of the module
 OPENCV_MODULE_opencv_python3_CLASS:INTERNAL=BINDINGS
-//Flattened dependencies of opencv_python3 module
-OPENCV_MODULE_opencv_python3_DEPS:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_highgui;opencv_objdetect;opencv_stitching;opencv_video;opencv_python_bindings_generator
-//Extra dependencies of opencv_python3 module
-OPENCV_MODULE_opencv_python3_DEPS_EXT:INTERNAL=
 //Flattened dependencies of opencv_python3 module (for linker)
 OPENCV_MODULE_opencv_python3_DEPS_TO_LINK:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_highgui;opencv_objdetect;opencv_stitching;opencv_video;opencv_python_bindings_generator
 //Brief description of opencv_python3 module
@@ -2273,10 +2264,6 @@ OPENCV_MODULE_opencv_python3_WRAPPERS:INTERNAL=
 OPENCV_MODULE_opencv_python_bindings_generator_BINARY_DIR:INTERNAL=D:/work/acccn/opencv.builds/modules/python_bindings_generator
 //The category of the module
 OPENCV_MODULE_opencv_python_bindings_generator_CLASS:INTERNAL=INTERNAL
-//Flattened dependencies of opencv_python_bindings_generator module
-OPENCV_MODULE_opencv_python_bindings_generator_DEPS:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_highgui;opencv_objdetect;opencv_stitching;opencv_video
-//Extra dependencies of opencv_python_bindings_generator module
-OPENCV_MODULE_opencv_python_bindings_generator_DEPS_EXT:INTERNAL=
 //Flattened dependencies of opencv_python_bindings_generator module
 // (for linker)
 OPENCV_MODULE_opencv_python_bindings_generator_DEPS_TO_LINK:INTERNAL=opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_photo;opencv_dnn;opencv_features2d;opencv_imgcodecs;opencv_videoio;opencv_calib3d;opencv_highgui;opencv_objdetect;opencv_stitching;opencv_video
@@ -2302,10 +2289,6 @@ OPENCV_MODULE_opencv_python_bindings_generator_WRAPPERS:INTERNAL=
 OPENCV_MODULE_opencv_python_tests_BINARY_DIR:INTERNAL=D:/work/acccn/opencv.builds/modules/python_tests
 //The category of the module
 OPENCV_MODULE_opencv_python_tests_CLASS:INTERNAL=INTERNAL
-//Flattened dependencies of opencv_python_tests module
-OPENCV_MODULE_opencv_python_tests_DEPS:INTERNAL=
-//Extra dependencies of opencv_python_tests module
-OPENCV_MODULE_opencv_python_tests_DEPS_EXT:INTERNAL=
 //Flattened dependencies of opencv_python_tests module (for linker)
 OPENCV_MODULE_opencv_python_tests_DEPS_TO_LINK:INTERNAL=
 //Brief description of opencv_python_tests module

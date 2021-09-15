@@ -5,3 +5,5 @@
 **/x64
 modules/world/opencl_kernels*
 lib
+**/*.vcxproj.user
+**/zlib.dir

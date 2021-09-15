@@ -213,7 +213,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\3rdparty\lib\Release\libprotobuf.lib;..\..\3rdparty\lib\Release\zlib.lib;..\..\3rdparty\lib\Release\libjpeg-turbo.lib;..\..\3rdparty\lib\Release\libwebp.lib;..\..\3rdparty\lib\Release\libpng.lib;..\..\3rdparty\lib\Release\libtiff.lib;..\..\3rdparty\lib\Release\libjasper.lib;..\..\3rdparty\lib\Release\IlmImf.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;..\..\3rdparty\lib\Release\zlib.lib;..\..\lib\Release\ade.lib;..\..\3rdparty\lib\Release\quirc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\x64\Release\libprotobuf.lib;..\..\x64\Release\zlib.lib;..\..\x64\Release\libjpeg-turbo.lib;..\..\x64\Release\libwebp.lib;..\..\x64\Release\libpng.lib;..\..\x64\Release\libtiff.lib;..\..\x64\Release\libjasper.lib;..\..\x64\Release\IlmImf.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;..\..\x64\Release\zlib.lib;..\..\lib\Release\ade.lib;..\..\x64\Release\quirc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -263,7 +263,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\3rdparty\lib\Release\libprotobuf.lib;..\..\3rdparty\lib\Release\zlib.lib;..\..\3rdparty\lib\Release\libjpeg-turbo.lib;..\..\3rdparty\lib\Release\libwebp.lib;..\..\3rdparty\lib\Release\libpng.lib;..\..\3rdparty\lib\Release\libtiff.lib;..\..\3rdparty\lib\Release\libjasper.lib;..\..\3rdparty\lib\Release\IlmImf.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;..\..\3rdparty\lib\Release\zlib.lib;..\..\lib\Release\ade.lib;..\..\3rdparty\lib\Release\quirc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\x64\Release\libprotobuf.lib;..\..\x64\Release\zlib.lib;..\..\x64\Release\libjpeg-turbo.lib;..\..\x64\Release\libwebp.lib;..\..\x64\Release\libpng.lib;..\..\x64\Release\libtiff.lib;..\..\x64\Release\libjasper.lib;..\..\x64\Release\IlmImf.lib;comctl32.lib;gdi32.lib;ole32.lib;setupapi.lib;ws2_32.lib;..\..\x64\Release\ade.lib;..\..\x64\Release\quirc.lib;kernel32.lib;user32.lib;winspool.lib;shell32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>

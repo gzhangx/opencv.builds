@@ -2,3 +2,5 @@
 *.db
 *.opendb
 **/Debug
+**/x64
+modules/world/opencl_kernels*

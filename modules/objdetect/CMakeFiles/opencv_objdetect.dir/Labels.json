@@ -1,0 +1,174 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/work/acccn/opencv/modules/objdetect/include/opencv2/objdetect.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/work/acccn/opencv/modules/objdetect/include/opencv2/objdetect/detection_based_tracker.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/work/acccn/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/work/acccn/opencv/modules/objdetect/src/cascadedetect.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/work/acccn/opencv/modules/objdetect/src/cascadedetect_convert.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/work/acccn/opencv/modules/objdetect/src/detection_based_tracker.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/work/acccn/opencv/modules/objdetect/src/hog.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/work/acccn/opencv/modules/objdetect/src/main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/work/acccn/opencv/modules/objdetect/src/qrcode.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/work/acccn/opencv/modules/objdetect/src/opencl/cascadedetect.cl",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/work/acccn/opencv/modules/objdetect/src/opencl/objdetect_hog.cl",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/work/acccn/opencv.builds/modules/objdetect/opencl_kernels_objdetect.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/work/acccn/opencv.builds/modules/objdetect/opencl_kernels_objdetect.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/work/acccn/opencv/modules/objdetect/src/cascadedetect.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/work/acccn/opencv/modules/objdetect/src/precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/work/acccn/opencv.builds/cvconfig.h"
+		},
+		{
+			"file" : "D:/work/acccn/opencv.builds/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "D:/work/acccn/opencv.builds/modules/objdetect/opencv_objdetect_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/work/acccn/opencv.builds/modules/objdetect/vs_version.rc"
+		},
+		{
+			"file" : "D:/work/acccn/opencv.builds/modules/objdetect/opencv_objdetect_main.cpp"
+		},
+		{
+			"file" : "D:/work/acccn/opencv.builds/CMakeFiles/aac5c1f6afadeecbcc243893fbb3f0df/opencl_kernels_objdetect.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_objdetect",
+			"Module"
+		],
+		"name" : "opencv_objdetect"
+	}
+}

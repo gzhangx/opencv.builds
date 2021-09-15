@@ -1,0 +1,89 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/FindBLAS.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/FindLAPACK.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/FindOpenMP.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/FindPythonInterp.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/TestBigEndian.cmake
+C:/Program Files/CMake/share/cmake-3.21/Templates/CPackConfig.cmake.in
+D:/work/acccn/opencv.builds/CMakeFiles/3.21.2/CMakeCCompiler.cmake
+D:/work/acccn/opencv.builds/CMakeFiles/3.21.2/CMakeCXXCompiler.cmake
+D:/work/acccn/opencv.builds/CMakeFiles/3.21.2/CMakeRCCompiler.cmake
+D:/work/acccn/opencv.builds/CMakeFiles/3.21.2/CMakeSystem.cmake
+D:/work/acccn/opencv/CMakeLists.txt
+D:/work/acccn/opencv/cmake/OpenCVCRTLinkage.cmake
+D:/work/acccn/opencv/cmake/OpenCVCompilerOptimizations.cmake
+D:/work/acccn/opencv/cmake/OpenCVCompilerOptions.cmake
+D:/work/acccn/opencv/cmake/OpenCVDetectCXXCompiler.cmake
+D:/work/acccn/opencv/cmake/OpenCVDetectDirectX.cmake
+D:/work/acccn/opencv/cmake/OpenCVDetectOpenCL.cmake
+D:/work/acccn/opencv/cmake/OpenCVDetectPython.cmake
+D:/work/acccn/opencv/cmake/OpenCVDetectTrace.cmake
+D:/work/acccn/opencv/cmake/OpenCVDetectVTK.cmake
+D:/work/acccn/opencv/cmake/OpenCVDownload.cmake
+D:/work/acccn/opencv/cmake/OpenCVExtraTargets.cmake
+D:/work/acccn/opencv/cmake/OpenCVFindFrameworks.cmake
+D:/work/acccn/opencv/cmake/OpenCVFindLAPACK.cmake
+D:/work/acccn/opencv/cmake/OpenCVFindLibsGUI.cmake
+D:/work/acccn/opencv/cmake/OpenCVFindLibsGrfmt.cmake
+D:/work/acccn/opencv/cmake/OpenCVFindLibsPerf.cmake
+D:/work/acccn/opencv/cmake/OpenCVFindLibsVideo.cmake
+D:/work/acccn/opencv/cmake/OpenCVFindMKL.cmake
+D:/work/acccn/opencv/cmake/OpenCVFindOpenBLAS.cmake
+D:/work/acccn/opencv/cmake/OpenCVFindProtobuf.cmake
+D:/work/acccn/opencv/cmake/OpenCVGenABI.cmake
+D:/work/acccn/opencv/cmake/OpenCVGenAndroidMK.cmake
+D:/work/acccn/opencv/cmake/OpenCVGenConfig.cmake
+D:/work/acccn/opencv/cmake/OpenCVGenHeaders.cmake
+D:/work/acccn/opencv/cmake/OpenCVGenSetupVars.cmake
+D:/work/acccn/opencv/cmake/OpenCVInstallLayout.cmake
+D:/work/acccn/opencv/cmake/OpenCVMinDepVersions.cmake
+D:/work/acccn/opencv/cmake/OpenCVModule.cmake
+D:/work/acccn/opencv/cmake/OpenCVPCHSupport.cmake
+D:/work/acccn/opencv/cmake/OpenCVPackaging.cmake
+D:/work/acccn/opencv/cmake/OpenCVUtils.cmake
+D:/work/acccn/opencv/cmake/OpenCVVersion.cmake
+D:/work/acccn/opencv/cmake/checks/directx.cpp
+D:/work/acccn/opencv/cmake/checks/opencl.cpp
+D:/work/acccn/opencv/cmake/checks/win32uitest.cpp
+D:/work/acccn/opencv/cmake/platforms/OpenCV-Windows.cmake
+D:/work/acccn/opencv/cmake/templates/OpenCVConfig-version.cmake.in
+D:/work/acccn/opencv/cmake/templates/OpenCVConfig.cmake.in
+D:/work/acccn/opencv/cmake/templates/OpenCVConfig.root-WIN32.cmake.in
+D:/work/acccn/opencv/cmake/templates/cmake_uninstall.cmake.in
+D:/work/acccn/opencv/cmake/templates/custom_hal.hpp.in
+D:/work/acccn/opencv/cmake/templates/cv_cpu_config.h.in
+D:/work/acccn/opencv/cmake/templates/cvconfig.h.in
+D:/work/acccn/opencv/cmake/templates/opencv_modules.hpp.in
+D:/work/acccn/opencv/cmake/templates/setup_vars_win32.cmd.in
+D:/work/acccn/opencv/modules/core/include/opencv2/core/version.hpp

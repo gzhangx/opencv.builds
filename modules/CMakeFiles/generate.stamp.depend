@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.21/Modules/CheckIncludeFile.c.in
+D:/work/acccn/opencv.builds/3rdparty/ffmpeg/ffmpeg_version.cmake
+D:/work/acccn/opencv/3rdparty/ffmpeg/ffmpeg.cmake
+D:/work/acccn/opencv/modules/CMakeLists.txt
+D:/work/acccn/opencv/modules/gapi/cmake/DownloadADE.cmake
+D:/work/acccn/opencv/modules/gapi/cmake/init.cmake
+D:/work/acccn/opencv/modules/videoio/cmake/detect_dc1394.cmake
+D:/work/acccn/opencv/modules/videoio/cmake/detect_dshow.cmake
+D:/work/acccn/opencv/modules/videoio/cmake/detect_ffmpeg.cmake
+D:/work/acccn/opencv/modules/videoio/cmake/detect_gstreamer.cmake
+D:/work/acccn/opencv/modules/videoio/cmake/detect_msmf.cmake
+D:/work/acccn/opencv/modules/videoio/cmake/init.cmake

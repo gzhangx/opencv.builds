@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+D:/work/acccn/opencv/cmake/templates/dllmain.cpp.in
+D:/work/acccn/opencv/cmake/templates/vs_version.rc.in
+D:/work/acccn/opencv/modules/videoio/CMakeLists.txt
+D:/work/acccn/opencv/modules/videoio/cmake/plugin.cmake

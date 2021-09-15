@@ -279,7 +279,7 @@ CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /DNDEBUG
 CMAKE_C_STANDARD_LIBRARIES:STRING=kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
 
 //Flags used by the linker during all build types.
-CMAKE_EXE_LINKER_FLAGS:STRING=/machine:X86
+CMAKE_EXE_LINKER_FLAGS:STRING=/machine:X64
 
 //Flags used by the linker during DEBUG builds.
 CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /INCREMENTAL
@@ -301,7 +301,7 @@ CMAKE_LINKER:FILEPATH=D:/utils/VS14/VC/bin/link.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
-CMAKE_MODULE_LINKER_FLAGS:STRING=/machine:X86
+CMAKE_MODULE_LINKER_FLAGS:STRING=/machine:X64
 
 //Flags used by the linker during the creation of modules during
 // DEBUG builds.
@@ -351,7 +351,7 @@ CMAKE_RC_FLAGS_RELWITHDEBINFO:STRING=
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
-CMAKE_SHARED_LINKER_FLAGS:STRING=/machine:X86
+CMAKE_SHARED_LINKER_FLAGS:STRING=/machine:X64
 
 //Flags used by the linker during the creation of shared libraries
 // during DEBUG builds.
@@ -378,7 +378,7 @@ CMAKE_SKIP_RPATH:BOOL=OFF
 
 //Flags used by the linker during the creation of static libraries
 // during all build types.
-CMAKE_STATIC_LINKER_FLAGS:STRING=/machine:X86
+CMAKE_STATIC_LINKER_FLAGS:STRING=/machine:X64
 
 //Flags used by the linker during the creation of static libraries
 // during DEBUG builds.
@@ -1608,7 +1608,7 @@ HAVE_ASSERT_H:INTERNAL=1
 //Test HAVE_BUILTIN_CTZL
 HAVE_BUILTIN_CTZL:INTERNAL=
 //Result of TRY_COMPILE
-HAVE_CONCURRENCY:INTERNAL=TRUE
+HAVE_CONCURRENCY:INTERNAL=FALSE
 //Test HAVE_CPU_BASELINE_FLAGS
 HAVE_CPU_BASELINE_FLAGS:INTERNAL=1
 //Test HAVE_CPU_DISPATCH_FLAGS_AVX
@@ -1637,6 +1637,8 @@ HAVE_CPU_SSSE3_SUPPORT:INTERNAL=1
 "HAVE_C_FP:PRECISE":INTERNAL=1
 //Test HAVE_C_STD_C99
 HAVE_C_STD_C99:INTERNAL=
+//Have include d3d11.h
+HAVE_D3D11:INTERNAL=
 //Have include d3d11_4.h
 HAVE_D3D11_4:INTERNAL=
 //Have include fcntl.h
@@ -1716,7 +1718,7 @@ HAVE_STRTOULL:INTERNAL=1
 //Have include sys/types.h
 HAVE_SYS_TYPES_H:INTERNAL=1
 //Result of TRY_COMPILE
-HAVE_WIN32UI:INTERNAL=TRUE
+HAVE_WIN32UI:INTERNAL=FALSE
 //Module opencv_calib3d will be built in current configuration
 HAVE_opencv_calib3d:INTERNAL=ON
 //Module opencv_core will be built in current configuration
@@ -2025,7 +2027,7 @@ OPENCV_MODULE_opencv_highgui_PRIVATE_REQ_DEPS:INTERNAL=
 //Required dependencies of opencv_highgui module
 OPENCV_MODULE_opencv_highgui_REQ_DEPS:INTERNAL=opencv_imgproc;opencv_imgcodecs
 //List of source files for opencv_highgui
-OPENCV_MODULE_opencv_highgui_SOURCES:INTERNAL=D:/work/acccn/opencv/modules/highgui/src/window.cpp;D:/work/acccn/opencv/modules/highgui/src/roiSelector.cpp;D:/work/acccn/opencv/modules/highgui/src/window_w32.cpp;D:/work/acccn/opencv/modules/highgui/src/precomp.hpp
+OPENCV_MODULE_opencv_highgui_SOURCES:INTERNAL=D:/work/acccn/opencv/modules/highgui/src/window.cpp;D:/work/acccn/opencv/modules/highgui/src/roiSelector.cpp;D:/work/acccn/opencv/modules/highgui/src/precomp.hpp
 //List of wrappers supporting module opencv_highgui
 OPENCV_MODULE_opencv_highgui_WRAPPERS:INTERNAL=java;python_bindings_generator;python2;python3
 OPENCV_MODULE_opencv_imgcodecs_BINARY_DIR:INTERNAL=D:/work/acccn/opencv.builds/modules/imgcodecs
@@ -2530,9 +2532,9 @@ VIDEOIO_PLUGIN_LIST-ADVANCED:INTERNAL=1
 __INSTALL_PATH_PYTHON3:INTERNAL=C:/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.8_3.8.2800.0_x64__qbz5n2kfra8p0/Lib/site-packages/cv2/python-3.8
 __OPENCV_CMAKE_HOOKS_INIT_MODULE_SOURCES_opencv_dnn:INTERNAL=D:/work/acccn/opencv/modules/dnn/cmake/hooks/INIT_MODULE_SOURCES_opencv_dnn.cmake
 //Result of TRY_COMPILE
-__VALID_DIRECTX:INTERNAL=TRUE
+__VALID_DIRECTX:INTERNAL=FALSE
 //Result of TRY_COMPILE
 __VALID_DIRECTX_NV12:INTERNAL=TRUE
 //Result of TRY_COMPILE
-__VALID_OPENCL:INTERNAL=TRUE
+__VALID_OPENCL:INTERNAL=FALSE
 

@@ -313,8 +313,8 @@ CMAKE_DL_LIBS=
 CMAKE_EFFECTIVE_SYSTEM_NAME=Windows
 CMAKE_EXECUTABLE_FORMAT=Unknown
 CMAKE_EXECUTABLE_SUFFIX=.exe
-CMAKE_EXE_LINKER_FLAGS=/machine:X86 
-CMAKE_EXE_LINKER_FLAGS=/machine:X86 
+CMAKE_EXE_LINKER_FLAGS=/machine:X64 
+CMAKE_EXE_LINKER_FLAGS=/machine:X64 
 CMAKE_EXE_LINKER_FLAGS_DEBUG=/debug /INCREMENTAL 
 CMAKE_EXE_LINKER_FLAGS_DEBUG=/debug /INCREMENTAL 
 CMAKE_EXE_LINKER_FLAGS_DEBUG_INIT= /debug /INCREMENTAL
@@ -369,7 +369,7 @@ CMAKE_MATCH_2=
 CMAKE_MATCH_COUNT=0
 CMAKE_MINIMUM_REQUIRED_VERSION=3.5.1
 CMAKE_MINOR_VERSION=21
-CMAKE_MODULE_LINKER_FLAGS=/machine:X86
+CMAKE_MODULE_LINKER_FLAGS=/machine:X64
 CMAKE_MODULE_LINKER_FLAGS_DEBUG=/debug /INCREMENTAL
 CMAKE_MODULE_LINKER_FLAGS_DEBUG_INIT= /debug /INCREMENTAL
 CMAKE_MODULE_LINKER_FLAGS_INIT= /machine:X86  
@@ -384,7 +384,7 @@ CMAKE_MT=CMAKE_MT-NOTFOUND
 CMAKE_MT=CMAKE_MT-NOTFOUND
 CMAKE_NINJA_CMCLDEPS_RC=1
 CMAKE_NO_BUILD_TYPE=1
-CMAKE_NUMBER_OF_MAKEFILES=66
+CMAKE_NUMBER_OF_MAKEFILES=60
 CMAKE_PARENT_LIST_FILE=D:/work/acccn/opencv/CMakeLists.txt
 CMAKE_PATCH_VERSION=2
 CMAKE_PCH_COPY_COMPILE_PDB=ON
@@ -425,8 +425,8 @@ CMAKE_SHARED_LIBRARY_PREFIX=
 CMAKE_SHARED_LIBRARY_RUNTIME_C_FLAG=
 CMAKE_SHARED_LIBRARY_RUNTIME_C_FLAG_SEP=
 CMAKE_SHARED_LIBRARY_SUFFIX=.dll
-CMAKE_SHARED_LINKER_FLAGS=/machine:X86 
-CMAKE_SHARED_LINKER_FLAGS=/machine:X86 
+CMAKE_SHARED_LINKER_FLAGS=/machine:X64 
+CMAKE_SHARED_LINKER_FLAGS=/machine:X64 
 CMAKE_SHARED_LINKER_FLAGS_DEBUG=/debug /INCREMENTAL 
 CMAKE_SHARED_LINKER_FLAGS_DEBUG=/debug /INCREMENTAL 
 CMAKE_SHARED_LINKER_FLAGS_DEBUG_INIT= /debug /INCREMENTAL
@@ -448,8 +448,8 @@ CMAKE_SKIP_RPATH=OFF
 CMAKE_SOURCE_DIR=D:/work/acccn/opencv
 CMAKE_STATIC_LIBRARY_PREFIX=
 CMAKE_STATIC_LIBRARY_SUFFIX=.lib
-CMAKE_STATIC_LINKER_FLAGS=/machine:X86 /IGNORE:4221
-CMAKE_STATIC_LINKER_FLAGS=/machine:X86 /IGNORE:4221
+CMAKE_STATIC_LINKER_FLAGS=/machine:X64 /IGNORE:4221
+CMAKE_STATIC_LINKER_FLAGS=/machine:X64 /IGNORE:4221
 CMAKE_STATIC_LINKER_FLAGS_DEBUG=
 CMAKE_STATIC_LINKER_FLAGS_INIT= /machine:X86
 CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL=
@@ -786,7 +786,7 @@ Git_FOUND=TRUE
 HAVE_ASSERT_H=1
 HAVE_ATOMIC_LONG_LONG=ON
 HAVE_BUILTIN_CTZL=
-HAVE_CONCURRENCY=TRUE
+HAVE_CONCURRENCY=FALSE
 HAVE_CPU_BASELINE_FLAGS=1
 HAVE_CPU_DISPATCH_FLAGS_AVX=1
 HAVE_CPU_DISPATCH_FLAGS_FP16=1
@@ -802,12 +802,8 @@ HAVE_CXX_ARCH:AVX=1
 HAVE_CXX_FP:PRECISE=1
 HAVE_C_FP:PRECISE=1
 HAVE_C_STD_C99=
-HAVE_D3D10=ON
-HAVE_D3D11=ON
+HAVE_D3D11=
 HAVE_D3D11_4=
-HAVE_D3D9=ON
-HAVE_DIRECTX=ON
-HAVE_DIRECTX_NV12=ON
 HAVE_DSHOW=TRUE
 HAVE_FCNTL_H=1
 HAVE_FFMPEG=TRUE
@@ -833,7 +829,6 @@ HAVE_MKL=OFF
 HAVE_MSMF=TRUE
 HAVE_OFF64_T=FALSE
 HAVE_OPENCL=1
-HAVE_OPENCL_D3D11_NV=ON
 HAVE_OPENCL_STATIC=OFF
 HAVE_OPENEXR=YES
 HAVE_OPENJPEG=NO
@@ -869,7 +864,7 @@ HAVE_SYS_TYPES_H=1
 HAVE_TIFF=YES
 HAVE_VTK=OFF
 HAVE_WEBP=1
-HAVE_WIN32UI=TRUE
+HAVE_WIN32UI=FALSE
 HAVE_opencv_calib3d=ON
 HAVE_opencv_core=ON
 HAVE_opencv_dnn=ON
@@ -1685,7 +1680,7 @@ OPENCV_MODULE_opencv_highgui_OPT_DEPS=opencv_videoio
 OPENCV_MODULE_opencv_highgui_PRIVATE_OPT_DEPS=
 OPENCV_MODULE_opencv_highgui_PRIVATE_REQ_DEPS=
 OPENCV_MODULE_opencv_highgui_REQ_DEPS=opencv_imgproc;opencv_imgcodecs
-OPENCV_MODULE_opencv_highgui_SOURCES=D:/work/acccn/opencv/modules/highgui/src/window.cpp;D:/work/acccn/opencv/modules/highgui/src/roiSelector.cpp;D:/work/acccn/opencv/modules/highgui/src/window_w32.cpp;D:/work/acccn/opencv/modules/highgui/src/precomp.hpp
+OPENCV_MODULE_opencv_highgui_SOURCES=D:/work/acccn/opencv/modules/highgui/src/window.cpp;D:/work/acccn/opencv/modules/highgui/src/roiSelector.cpp;D:/work/acccn/opencv/modules/highgui/src/precomp.hpp
 OPENCV_MODULE_opencv_highgui_WRAPPERS=java;python_bindings_generator;python2;python3
 OPENCV_MODULE_opencv_imgcodecs_BINARY_DIR=D:/work/acccn/opencv.builds/modules/imgcodecs
 OPENCV_MODULE_opencv_imgcodecs_CLASS=PUBLIC
@@ -2183,17 +2178,16 @@ TIFF_VERSION_LINES=#define TIFF_VERSION_CLASSIC 42;#define TIFF_VERSION_BIG 43
 TIFF_VERSION_STRING=4.0.10
 TRY_OUT=Change Dir: D:/work/acccn/opencv.builds/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_9473c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) Build Engine version 14.0.25420.1
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_1746a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) Build Engine version 14.0.25420.1
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /MP /Od /Ob0 /Oi /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_NV12 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHa /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9473c.dir\Debug\\" /Fd"cmTC_9473c.dir\Debug\vc140.pdb" /Gd /TP /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /analyze- /errorReport:queue  /bigobj D:\work\acccn\opencv\cmake\checks\directx.cpp
+  cl /c /Zi /W3 /WX- /MP /Od /Ob0 /Oi /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHa /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1746a.dir\Debug\\" /Fd"cmTC_1746a.dir\Debug\vc140.pdb" /Gd /TP /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /analyze- /errorReport:queue  /bigobj D:\work\acccn\opencv\cmake\checks\directx.cpp
   
   directx.cpp
-  cmTC_9473c.vcxproj -> D:\work\acccn\opencv.builds\CMakeFiles\CMakeTmp\Debug\cmTC_9473c.exe
-  cmTC_9473c.vcxproj -> D:/work/acccn/opencv.builds/CMakeFiles/CMakeTmp/Debug/cmTC_9473c.pdb (Full PDB)
+cmTC_1746a.dir\Debug\directx.obj : fatal error LNK1112: module machine type 'X86' conflicts with target machine type 'x64' [D:\work\acccn\opencv.builds\CMakeFiles\CMakeTmp\cmTC_1746a.vcxproj]
 
 
 Threads_FOUND=TRUE
@@ -2497,7 +2491,7 @@ module=
 name=
 next=ON
 old-jpeg=OFF
-opencl_features=NVD3D11
+opencl_features=no extra features
 opencv_annotation_BINARY_DIR=D:/work/acccn/opencv.builds/apps/annotation
 opencv_annotation_IS_TOP_LEVEL=OFF
 opencv_annotation_SOURCE_DIR=D:/work/acccn/opencv/apps/annotation
@@ -2596,7 +2590,7 @@ openexr_BINARY_DIR=D:/work/acccn/opencv.builds/3rdparty/openexr
 openexr_IS_TOP_LEVEL=OFF
 openexr_SOURCE_DIR=D:/work/acccn/opencv/3rdparty/openexr
 packbits=ON
-parallel_status=Concurrency
+parallel_status=none
 quirc_BINARY_DIR=D:/work/acccn/opencv.builds/3rdparty/quirc
 quirc_IS_TOP_LEVEL=OFF
 quirc_SOURCE_DIR=D:/work/acccn/opencv/3rdparty/quirc

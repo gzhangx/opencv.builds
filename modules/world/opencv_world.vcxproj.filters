@@ -1357,6 +1357,9 @@
     <ClCompile Include="D:\work\acccn\opencv\modules\world\src\world_init.cpp">
       <Filter>Src</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\opencv\modules\highgui\src\window_w32.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\work\acccn\opencv\modules\core\include\opencv2\core\opencl\ocl_defs.hpp">

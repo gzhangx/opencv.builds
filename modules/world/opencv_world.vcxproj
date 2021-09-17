@@ -144,7 +144,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;ENABLE_PLUGINS;STRICT_PLUGIN_CHECK;OPENCV_MODULE_IS_PART_OF_WORLD=1;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;__OPENCV_BUILD=1;OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long;CV_OCL4DNN=1;_CRT_SECURE_NO_WARNINGS=1;HAVE_PROTOBUF=1;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;HAVE_DSHOW;HAVE_MSMF;HAVE_FFMPEG_WRAPPER;CMAKE_INTDIR="Debug";CVAPI_EXPORTS;HAVE_WIN32UI</PreprocessorDefinitions>
